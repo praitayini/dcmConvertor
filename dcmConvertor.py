@@ -2,7 +2,6 @@ import os
 import cv2
 import glob
 import pydicom
-import struct
 import argparse
 import subprocess
 import numpy as np
@@ -123,7 +122,7 @@ def binary_threshold(dcm_dir):
 
 def load_dicom(dcm_dir):
     """
-    Method to threshold load dicom files
+    Method to load dicom files
     :param dcm_dir: dicom directory
     """
     print('***********************************')

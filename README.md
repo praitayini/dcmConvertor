@@ -25,13 +25,13 @@ Running the dcmConvertor.py script requires [inputs](#arguments-and-io) folder t
 
 * **Create Virtual Environment and activate**
 ```
-    conda create -n dcm_convertor python=3.8
-    conda activate dcm_convertor
+conda create -n dcm_convertor python=3.8
+conda activate dcm_convertor
 ```
 * **Packages required**
 ```
-    pip install pydicom
-    pip install opencv-python
+pip install pydicom
+pip install opencv-python
 ```
 * **Tool required**
 
@@ -39,8 +39,8 @@ Running the dcmConvertor.py script requires [inputs](#arguments-and-io) folder t
 
 * **Clone the repo**
 ```
-    git clone https://github.com/praitayini/dcmConvertor.git
-    cd /path/to/repo/dcmConvertor
+git clone https://github.com/praitayini/dcmConvertor.git
+cd /path/to/repo/dcmConvertor
 ```
 ## Command
 

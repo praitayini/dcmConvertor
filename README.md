@@ -11,8 +11,6 @@
 
 ## Overview
 
-![Overview]
-
 * **Summary:** Conversion and handling of DICOM MRI data
 
 * **Script performs:** 
@@ -52,12 +50,9 @@ Running the dcmConvertor.py script requires [inputs](#arguments-and-io) folder t
   * dicom\series# 
 
 	* \<dcm1\>.dcm 
+	* \<dcm2\>.dcm 
 
-        * \<dcm2\>.dcm 
-
-	:
-
-        * \<dcmn\>.dcm 
+	* \<dcmn\>.dcm 
 
 
 * **Output Directory:** Output folders are created based on the [options](#options)

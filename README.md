@@ -96,4 +96,4 @@ Read dicom and loads it into an array
 
 ## Discussion
 
-dcm2niix tool was used for nifti generation as it is widely used and most reliable. The most recent realease is recommended. Loading series can be preformed with nifti images as well using nibabel package. For future development of this work, the script can be made into a pip package.
+dcm2niix tool was used for nifti generation as it is widely used and most reliable. The most recent realease is recommended. Loading series can be preformed with nifti images as well using nibabel package. For future development of this work, the script can be made into a pip package. Option for custom output directory can added to aviod overwriting. 

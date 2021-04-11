@@ -22,21 +22,26 @@
 ## Setup
 
 Running the dcmConvertor.py script requires [inputs](#arguments-and-io) folder that holds all DICOM series, packages: pydicom, opencv-python and tools: dcm2niix.
+
 * **Create Virtual Environment and activate**
+```
     conda create -n dcm_convertor python=3.8
     conda activate dcm_convertor
-
+```
 * **Packages required**
+```
     pip install pydicom
     pip install opencv-python
-
+```
 * **Tool required**
-    install https://github.com/rordenlab/dcm2niix#build-command-line-version-with-cmake-linux-macos-windows
+
+    follow steps in: https://github.com/rordenlab/dcm2niix#build-command-line-version-with-cmake-linux-macos-windows
 
 * **Clone the repo**
+```
     git clone https://github.com/praitayini/dcmConvertor.git
     cd /path/to/repo/dcmConvertor
-
+```
 ## Command
 
     python dcmConvertor.py 
